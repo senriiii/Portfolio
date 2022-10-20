@@ -169,6 +169,40 @@ body {
 }
 
 
+
+.form-fields{
+
+    background-color: rgba(101, 91, 85, 0.829);
+    width: 100vw;
+    height:38vh;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.form-fields input,textarea,.submit{
+margin-top: 1rem;
+width: 20rem;
+margin-left: 35vw;
+
+}
+.form-fields h3{
+    margin-left: 34rem;
+}
+
+.submit button{
+    width:4rem;
+}
+.form{
+    color:white;
+}
+.aboutdiv p{
+    line-height: 1.6;
+}
+
+
+
 @media screen and (max-width : 800px) {
     .home {
         flex-direction: column;
@@ -295,4 +329,6 @@ body {
         
 
 }
+
+
 
