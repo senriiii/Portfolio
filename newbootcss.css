@@ -180,7 +180,7 @@ body {
     .aboutdiv,.edudiv,.skillsdiv {
         height: 24rem;
         width: 25rem;
-        margin-left: 11rem;
+        margin-left: 6rem;
         margin-top: 2rem;
         
     }
@@ -202,47 +202,58 @@ body {
         margin-left: 17rem;
     }
 
-}
+    .form-fields input,textarea,.submit{
+        margin-top: 1rem;
+        width: 20rem;
+        margin-left: 19vw;
+        
+        }
 
-.form-fields{
 
-    background-color: rgba(101, 91, 85, 0.829);
-    width: 100vw;
-    height:38vh;
-    display: flex;
-    flex-direction: column;
+        
+    .form-fields h3{
+        margin-left: 5rem;
+        
+    }
+
+    .form-fields{
+
+        background-color: rgba(101, 91, 85, 0.829);
+        width: 155vw;
+        height:47vh;
+        display: flex;
+        flex-direction: column;
+       
+    
+    }
+    .footer{
    
+        height: 10rem;
+        width: 154vw;
+        background-color:  #4c4a4a67;
+        color: white;
+    }
 
+
+    .home img {
+        height: 45vh;
+        width: 62vw;
+        border-radius: 50%;
+    }
 }
 
-.form-fields input,textarea,.submit{
-margin-top: 1rem;
-width: 20rem;
-margin-left: 35vw;
-
-}
-.form-fields h3{
-    margin-left: 34rem;
-}
-
-.submit button{
-    width:4rem;
-}
-.form{
-    color:white;
-}
-
-@media screen and (max-width : 400px) {
+@media screen and (max-width : 393px){
     .home {
         flex-direction: column;
     }
+   
 
     .socials {
         flex-direction: row;
     }
     .aboutdiv,.edudiv,.skillsdiv {
-        height: 21rem;
-        width: 21rem;
+        height: 24rem;
+        width: 25rem;
         margin-left: 2rem;
         margin-top: 2rem;
         
@@ -253,8 +264,8 @@ margin-left: 35vw;
     .form-fields{
 
         background-color: rgba(101, 91, 85, 0.829);
-        width: 100vw;
-        height:118vh;
+        width: 114vw;
+        height:47vh;
         display: flex;
         flex-direction: column;
        
@@ -262,12 +273,26 @@ margin-left: 35vw;
     }
 
     .form-fields h3{
-        margin-left: 17rem;
+        margin-left: 5rem;
         
     }
 
+
+    .form-fields input,textarea,.submit{
+        margin-top: 1rem;
+        width: 20rem;
+        margin-left: 19vw;
+        
+        }
+
+        .footer{
+   
+            height: 10rem;
+            width: 117vw;
+            background-color:  #4c4a4a67;
+            color: white;
+        }
+        
+
 }
 
-.aboutdiv p{
-    line-height: 1.6;
-}
